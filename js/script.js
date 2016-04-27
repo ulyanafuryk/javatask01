@@ -1,4 +1,4 @@
-btn.addEventListner('click', clicker, false);
+btn.addEventListener('click', clicker());
 function clicker() {
 alert('Button Clicked');
 }
